@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+
+ body, html { 
+   overflow-x:hidden;
+  overflow-y: scroll;
+  height: 100%;
+  }
+
+
 .row {
   margin: 0 auto;
   padding-left: 10px;
@@ -31,6 +39,8 @@
 @media only screen and (min-width: 768px) {
 
    body, html { 
+    overflow-x:hidden;
+  overflow-y: scroll;
 
   height: 100%;
   }
